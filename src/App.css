@@ -40,7 +40,11 @@ h1 {
 }
 
 .correct {
-  background-color: green;
+  background-color: #5fca5f;
+}
+
+.incorrect {
+  background-color: rgb(246, 111, 111);
 }
 
 .question-text {
