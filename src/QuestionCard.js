@@ -46,7 +46,7 @@ const QuestionCard = () => {
                 })
             )}
             
-            <button onClick={() => moveIndex(-1)} className="btn btn-primary next-button" disabled={(questionIndex <=0)? true:false}>&lt;&lt; Previous</button>&nbsp;&nbsp;
+            <button onClick={() => moveIndex(-1)} className="btn btn-primary next-button" disabled={(questionIndex <=0)? true:false}>&lt;&lt; Prev</button>&nbsp;&nbsp;
             <button onClick={() => moveIndex(1)} className="btn btn-primary next-button" disabled={(questionIndex == data.length - 1)? true:false}>Next &gt;&gt;</button>&nbsp;&nbsp;
             <button onClick={() => randomQuestion()} className="btn btn-warning next-button">Random ↻</button>
         </div>
