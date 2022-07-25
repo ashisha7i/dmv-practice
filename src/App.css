@@ -53,8 +53,7 @@ h1 {
 .heading-text {
   font-size: 24px;
   background-color: silver;
-  border-radius: 16px;
-  margin-top: 20px;
+  width: 100%;
 }
 
 .footer-text {

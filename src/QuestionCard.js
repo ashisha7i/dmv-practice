@@ -18,6 +18,12 @@ const QuestionCard = () => {
         setQuestionIndex(questionIndex + index);
     };
 
+    const randomQuestion = () => {
+        let randomIndex = Math.floor(Math.random() * data.length);
+        setCorrectGuessed(false);
+        setQuestionIndex(randomIndex);
+    };
+
     const isCorrect = (opt, correct) => {
         console.log(opt == correct);
         setCorrectGuessed(opt == correct);
@@ -41,7 +47,8 @@ const QuestionCard = () => {
             )}
             
             <button onClick={() => moveIndex(-1)} className="btn btn-primary next-button" disabled={(questionIndex <=0)? true:false}>&lt;&lt; Previous</button>&nbsp;&nbsp;
-            <button onClick={() => moveIndex(1)} className="btn btn-primary next-button" disabled={(questionIndex == data.length - 1)? true:false}>Next &gt;&gt;</button>
+            <button onClick={() => moveIndex(1)} className="btn btn-primary next-button" disabled={(questionIndex == data.length - 1)? true:false}>Next &gt;&gt;</button>&nbsp;&nbsp;
+            <button onClick={() => randomQuestion()} className="btn btn-warning next-button">Random ↻</button>
         </div>
     );
 
