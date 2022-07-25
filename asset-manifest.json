@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/dmv-practice/static/css/main.9db76cd6.css",
-    "main.js": "/dmv-practice/static/js/main.d34e177d.js",
+    "main.js": "/dmv-practice/static/js/main.cbfde983.js",
     "index.html": "/dmv-practice/index.html",
     "main.9db76cd6.css.map": "/dmv-practice/static/css/main.9db76cd6.css.map",
-    "main.d34e177d.js.map": "/dmv-practice/static/js/main.d34e177d.js.map"
+    "main.cbfde983.js.map": "/dmv-practice/static/js/main.cbfde983.js.map"
   },
   "entrypoints": [
     "static/css/main.9db76cd6.css",
-    "static/js/main.d34e177d.js"
+    "static/js/main.cbfde983.js"
   ]
 }
